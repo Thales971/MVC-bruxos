@@ -1,5 +1,8 @@
 import express from "express";
-import { getAllAnimais, getAnimalById } from "../controllers/animaisControllers.js";
+import {
+  getAllAnimais,
+  getAnimalById,
+} from "../controllers/animaisControllers.js";
 
 const router = express.Router();
 
