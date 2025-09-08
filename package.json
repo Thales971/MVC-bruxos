@@ -1,0 +1,19 @@
+{
+  "name": "bruxosmvc",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon server.js"
+  },
+  "keywords": ["Senai","MVC","Node"],
+  "author": "Thales",
+  "license": "MIT",
+  "description": "Servidor para bruxos com MVC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
